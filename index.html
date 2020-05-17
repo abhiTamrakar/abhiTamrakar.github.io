@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <title>AT</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.59.1" />
+
+
+
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu_light.css" />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = () => {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="container">
+    <main style="min-height: calc(100vh - 60px);">
+      
+      <div class="d-flex flex-row row p-2">
+  <h3 class="main-menu mr-3">
+    <a href="https://abhitamrakar.github.io/">Home</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a href="/blog">Blog</a>
+  </h3>
+</div>
+
+      
+<div class="ml-auto mr-auto row row-eq-height rounded">
+  <div class="col-md-5 text-center p-2 mt-1">
+    <div class="profile-area rounded text-center position-relative shadow">
+      <div class="d-flex justify-content-center pt-2">
+  <div class="w-100 h-100">
+    <img
+      class="rounded rounded-circle mt-4"
+      src="/images/profile.jpg"
+      alt=""
+      style="width: 95%; max-width: 300px;"
+    />
+  </div>
+</div>
+
+      <div class="p-2">
+        <h1 class="mb-0">Abhishek Tamrakar</h1>
+<h2 class="mb-0">AT</h2>
+<h3 class="mb-0">Pune, MH</h3>
+<div class="mt-2 d-flex flex-wrap justify-content-center">
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://www.linkedin.com/in/abhishektamrakar/">
+      <i class="zoomlink mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://github.com/abhiTamrakar">
+      <i class="zoomlink mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://twitter.com/abhitamrakar1?lang=en">
+      <i class="zoomlink mt-1 fab fa-twitter"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="mailto:abhishek.tamrakar08@gmail.com">
+      <i class="zoomlink mt-1 fas fa-envelope"></i>
+    </a>
+  </div>
+  
+</div>
+ <footer class=" mt-2 mb-2 ">
+  <span class="markdownify">abhishek.tamrakar</span>
+  <span style="font-size:0px;">
+    &middot;
+    <i>
+      <a href="https://github.com/darshanbaral/aafu">
+        aafu
+      </a>
+    </i>
+    by
+    <a href="https://www.darshanbaral.com/">
+      darshan
+    </a>
+  </span>
+</footer>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 pt-2 mt-3">
+    
+    <h2 class="accordion  active ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-user"></i>
+        About Me</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <p class="markdownify">
+  <strong>Effective Communicator, Team Player, Blogger</strong>, with 11+ years of technical experience in implementations and configurations of distributed systems and micro-services architecture. Coming with advanced knowledge of Linux based operating systems and proficiency with majority of public cloud providers, along with understanding of DevOps practices and tool-sets to effectively create scalable and fault tolerant solutions.
+</p>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-briefcase"></i>
+        Experiences</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt class="mb-0">
+    Senior DevOps Engineer
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">Dec 2018 - <em>Present</em></span>
+    &middot;
+    
+    Qualys, Inc.
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Responsible to create kubernetes based platform to provide resiliency, increase reliability of the application infrastructure and help application teams to reduce the time to delivery.</p>
+
+<ul>
+<li>Created scalable kubernetes platform.</li>
+<li>Wrote E2E CD automation to setup kubernetes clusters using Terraform, Ansible and Hashicorp Vault.</li>
+<li>Automation to handle cluster upgrade without downtime.</li>
+<li>Designed and helped the team to implement necessary DevOps processes and best practices.</li>
+<li>Helped application teams to convert the legacy compose files to easily maintainable helm charts and to migrate to kubernetes.</li>
+<li>Helped Ops team to understand and troubleshoot issues over containerized  micro-services distributed over Docker Swarm and Kubernetes.</li>
+<li>Created necessary documentation to help the team understand the platform and ease of troubleshooting.</li>
+<li>Wrote necessary Ansible modules wherever required.</li>
+<li>Wrote kubernetes plugins/scripts that can help in debugging issues easily.</li>
+<li>Wrote the automation to get the cluster capacity the way kubernetes sees it to help SRE and OPS understand the current cluster capacity to help with sizing/scaling of the cluster.</li>
+<li>Helped in implementation of FEDRAMP compliance for the platform and micro-services.</li>
+<li>Developed a process to rotate CA for kubernetes cluster with a minimal downtime and contributed same to the kubernetes documentation. ref <a href="https://github.com/kubernetes/website/pull/19351">#19351</a>.</li>
+</ul></dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Senior Team Lead
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">Dec 2017 - Dec 2018</span>
+    &middot;
+    
+    <a href="https://www.persistent.com/">Persistent Systems</a>
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify"><ul>
+<li>Mentored and helped team to understand and learn the key concepts.</li>
+<li>Wrote necessary documentation to help with troubleshooting and understanding of basic concepts within the scope of the projects.</li>
+<li>Followed DevOps practices to incorporate automation solutions to create complex infrastructure quickly and efficiently.</li>
+<li>Used Ansible, Terraform, Docker and Kubernetes over multiple clouds to create sustainable production infrastructure.</li>
+<li>Automation to handle implementation of control plane, data plane and a separate monitoring plane to create a stable application platform.</li>
+<li>POC of various open-source tools to keep up with the tool set in order to provide clients with cost effective and viable solutions.</li>
+<li>Wrote python module to handle concurrent read/write operations in MongoDB.</li>
+</ul></dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Senior Cloud Automation Engineer
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">Aug 2016 - Nov 2017</span>
+    &middot;
+    
+    Rean Cloud
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify"><ul>
+<li>Use of Ansible playbooks, depending on client requirements</li>
+<li>Use of Chef Cookbooks, depending on client requirements.</li>
+<li>Use of Docker to create compact containers for applications and other dependent resources.</li>
+<li>Use of Inspec to write validation test cases for infrastructure and server resources.</li>
+<li>Use of Jenkins Orchestrator for delivery aspects.</li>
+<li>Deploying infrastructure with (AWS resources) ECS/EB and ECR.</li>
+<li>Use of Cloud formation templates/terraform wherever required to create complex AWS infrastructure to sustain the production level environment.</li>
+</ul></dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Senior Systems Engineer
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">July 2013 - Aug 2016</span>
+    &middot;
+    
+    Hewlett Packard Enterprise
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify"><ul>
+<li>Configuration of FTP server, mail relay over TLS and SSL protocols.</li>
+<li>Setting up routing and routing rules via iptables/firewall for enhanced security.</li>
+<li>SME for SSL certificates related requests and issues.</li>
+<li>Writing compact and efficient bash shell scripts to automate various tasks and reports.</li>
+<li>Scheduling, executing and validating technology changes following the Change Management process.</li>
+<li>Hands on exposure on source code management and versioning systems like GIT and SVN.</li>
+<li>Implemented SSL automation for web/ mail/ FTP applications to renew all SSL certificates automatically and handle troubleshooting SSL issues wherever possible via automated scripts.</li>
+<li>Implemented FTP automation project for all types of FTP servers to automate all ftp account creation and troubleshooting FTP related issues.</li>
+</ul></dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Technical Executive
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">April 2012 - July 2013</span>
+    &middot;
+    
+    NTT Data
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify"><ul>
+<li>Providing L2 support, troubleshooting and Configuration for Morgan Stanley Web Servers.</li>
+<li>Configuration and troubleshooting of F5/Big-IP Load Balancers.</li>
+<li>Configuration, troubleshooting of Apache Tomcat servers and deploying application</li>
+</ul></dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Systems Officer
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">May 2009 - Jan 2012</span>
+    &middot;
+    
+    High Court of Madhya Pradesh, MP, India
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify"><ul>
+<li>Installation and Configuring RHEL System and Suse Linux Server.</li>
+<li>Automation of various tasks through Shell scripting</li>
+<li>Automated backups.</li>
+<li>Automated disk space and load issue resolution and root cause analysis.</li>
+<li>Automated configuration of lamp server.</li>
+<li>Installation via tar balls, rpm, apt, apk, dpkg depending upon distribution.</li>
+<li>Disk Management partitioning tools like fdisk, file system management ext3, and file system utilities (fsck, e2fsck, mke2fs, and dumpe2fs).</li>
+<li>Installation of DNS, DHCP server.</li>
+</ul></dd>
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-graduation-cap"></i>
+        Education</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt>BE in Electronics and Communication</dt>
+  <dd class="mb-0 ml-3">2014 - 2018 &middot; Rajiv Gandhi Technical University, Bhopal.</dd>
+  
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fab fa-blogger"></i>
+        Articles</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+
+
+<h4 style="text-decoration: underline;">Articles</h4><p>2019.
+Abhishek Tamrakar.
+
+
+<a href="https://opensource.com/article/20/2/kubernetes-tmux-kubectl">
+  <em>Troubleshoot kubernetes with the power of tmux and kubectl.</em>
+</a>
+
+
+.
+</p>
+<p>2019.
+Abhishek Tamrakar.
+
+
+<a href="https://opensource.com/article/19/9/advanced-bash-building-minesweeper">
+  <em>Hone advanced bash skills by building Minesweeper.</em>
+</a>
+
+
+.
+</p>
+<p>2019.
+Abhishek Tamrakar.
+
+
+<a href="https://opensource.com/article/19/5/gating-production-devops">
+  <em>Gating production in DevOps.</em>
+</a>
+
+
+.
+</p>
+<p>2019.
+Abhishek Tamrakar.
+
+
+<a href="https://opensource.com/article/19/2/infrastructure-monitoring">
+  <em>Infrastructure Monitoring, Defence against surprise downtime.</em>
+</a>
+
+
+.
+</p>
+<p>2018.
+Abhishek Tamrakar.
+
+
+<a href="https://medium.com/@abhishek.tamrakar/infrastructure-security-ssl-tls-certificates-and-challenges-9464d75a5e17">
+  <em>Infrastructure Security, SSL certificates and challenges.</em>
+</a>
+
+
+.
+</p>
+<p>2018.
+Abhishek Tamrakar.
+
+
+<a href="https://medium.com/faun/building-foundation-for-the-infrastructure-on-cloud-the-first-layer-a4f68c89cc14">
+  <em>Building foundation for the infrastructure on cloud.</em>
+</a>
+
+
+.
+</p>
+<p>2018.
+Abhishek Tamrakar.
+
+
+<a href="https://medium.com/faun/implementing-pessimistic-locks-in-mongodb-8f3fbe2ddfa9">
+  <em>implementing pessimistic locks in MongoDB.</em>
+</a>
+
+
+.
+</p>
+
+
+<h4 style="text-decoration: underline;">Proceedings</h4>
+
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-project-diagram"></i>
+        Github Projects</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <dl>
+  
+  <dt>
+    <a href="https://github.com/abhiTamrakar/ssl-on-demand" style="font-variant: small-caps; ">SSL-On-Demand</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">This utility predicts SSL certificate expiry and generated output i various formats including prometheus metrics.</dd>
+  
+  <dt>
+    <a href="https://github.com/abhiTamrakar/kube-plugins" style="font-variant: small-caps; ">Kube-Plugins</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">The project contains scripts that can be used as kubernetes plugins to ease debugging issues in various phases of application deployment on kubernetes clusters.</dd>
+  
+  <dt>
+    <a href="https://github.com/abhiTamrakar/kapct" style="font-variant: small-caps; ">Kapct</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">This utility calculates kubernetes cluster capacity the way cluster sees it.</dd>
+  
+  <dt>
+    <a href="https://github.com/abhiTamrakar/playground" style="font-variant: small-caps; ">Playground</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">The project contains popular games written in bash and many more to come.</dd>
+  
+</dl>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-cogs"></i>
+        Skills</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+      id="skill-panel"
+      
+    >
+      <script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+
+<code>Ansible, Terraform, Jenkins</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="95%" style="width: 0;"></div>
+</div>
+
+<code>Docker, Kubernetes</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="90%" style="width: 0;"></div>
+</div>
+
+<code>Bash, Linux</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="90%" style="width: 0;"></div>
+</div>
+
+<code>AWS Cloud, Azure Cloud</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="80%" style="width: 0;"></div>
+</div>
+
+<code>Python</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="80%" style="width: 0;"></div>
+</div>
+
+<code>Golang, Consul, Vault</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="65%" style="width: 0;"></div>
+</div>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-gamepad"></i>
+        Hobbies</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">Listening to old bollywood songs</li>
+  
+  <li class="list-unstyled mb-2">Badminton</li>
+  
+  <li class="list-unstyled mb-2">Carrom</li>
+  
+  <li class="list-unstyled mb-2">Writing Poems, Ghazal</li>
+  
+  <li class="list-unstyled mb-2">Book Reading</li>
+  
+</ul>
+
+    </div>
+    
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>

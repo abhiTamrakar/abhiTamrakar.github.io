@@ -6,9 +6,46 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://abhitamrakar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>devops</title>
+      <link>https://abhitamrakar.github.io/tags/devops/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhitamrakar.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://abhitamrakar.github.io/tags/kubernetes/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhitamrakar.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes plugins</title>
+      <link>https://abhitamrakar.github.io/tags/kubernetes-plugins/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhitamrakar.github.io/tags/kubernetes-plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell mania</title>
+      <link>https://abhitamrakar.github.io/tags/shell-mania/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhitamrakar.github.io/tags/shell-mania/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -7,7 +7,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<meta name="generator" content="aafu theme by Darshan in Hugo 0.59.1" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.68.3" />
 
 
 
@@ -127,6 +127,7 @@
 </div>
   <div class="content">
     <p>When you work on kubernetes clusters, it isn&rsquo;t the tools natural complexity you are more worried about. It is actually what comes along with it. The trouble to run multiple commands to find out the issue in development phase of the application.</p>
+<<<<<<< HEAD
 
 <p>Of-course, you can use aliases to speed up a bit and skip typing the complete command yourself. You still have to find the exact cause of the issue and it will take time, no matter what, unless an obvious error happens.</p>
 
@@ -158,6 +159,30 @@
 
 <p>One of the extended usage of this script is, it can be used as kubernetes plugin as described by the community documentation <a href="https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/">here</a>.</p>
 
+=======
+<p>Of-course, you can use aliases to speed up a bit and skip typing the complete command yourself. You still have to find the exact cause of the issue and it will take time, no matter what, unless an obvious error happens.</p>
+<p>Lets assume, you deployed an application and you see no pods are yet spun. How would you go with this issue?</p>
+<ol>
+<li>
+<p>You listed pods for your application.</p>
+<p><code>kubectl get pods -n myapp_namespace</code></p>
+</li>
+<li>
+<p>You listed deployment object for your application, here you see the deployment has not scaled up.</p>
+<p><code>kubectl get deploy -n myapp_namespace</code></p>
+</li>
+<li>
+<p>You listed and described replica-set and then you saw the actual issue was the replicas cant be scaled because of no nodes matches the constraint.</p>
+<p><code>kubectl get rs -n myapp_namespace</code></p>
+<p><code>kubectl describe rs myapp_rs -n myapp_namespace</code></p>
+</li>
+</ol>
+<p>This kind of issues could be very easy to solve but they take time to figure out that simple cause which could have saved a lot of time.</p>
+<p>To mitigate this problem I wrote a simple bash utility that scans through each namespaces and find all pods throwing &lsquo;Error&rsquo; and erroneous events of some sorts to ease the troubleshooting.</p>
+<p>Below is an excerpt of the krawl&rsquo;s output that shows how it behaves when it encounters issues.</p>
+<p><img src="https://raw.githubusercontent.com/abhiTamrakar/kube-plugins/master/krawl/krawl.png" alt="krawl"></p>
+<p>One of the extended usage of this script is, it can be used as kubernetes plugin as described by the community documentation <a href="https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/">here</a>.</p>
+>>>>>>> added latest experience
 <p>An elaborated article on the content of this script os also published at <a href="https://opensource.com/article/20/2/kubernetes-scanner">opensource.com</a>. The original script can be found at <a href="https://github.com/abhiTamrakar/kube-plugins">krawl</a></p>
 
   </div>
